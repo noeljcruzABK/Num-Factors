@@ -6,5 +6,10 @@ using namespace std;
 
 int main()
 {
-	cout << "Hello World!\n";
+	int input;
+
+	cout << "- Factors of a Number -" << endl;
+	cout << "Please enter a positive, whole number to see a list of its factors:" << endl;
+	cin >> input;
+	cout << input;
 }
